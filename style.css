@@ -590,41 +590,6 @@ footer {
     right: 1rem;
 }
 
-@media (max-width: 600px) {
-    .container {
-        padding-left: 5vw;
-        padding-right: 5vw;
-    }
-
-    .service-card {
-        height: max-content;
-    }
-
-    html {
-        font-size: 80%;
-    }
-
-    .btn {
-        width: 150px;
-    }
-
-    .social-media-logos img {
-        width: 25px;
-    }
-
-    .serv {
-        font-size: 1.5rem;
-    }
-
-    .cotacao-btn {
-        font-size: 1.2rem;
-    }
-
-    .serv > h3 {
-        font-size: 1.9rem;
-    }
-}
-
 @media (max-width: 1414px) {
     .nav-bar {
         display: none;
@@ -663,4 +628,43 @@ footer {
         text-align: center;
     }
 
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    html {
+        font-size: 80%;
+    }
+
+    .btn {
+        width: 150px;
+    }
+
+    .social-media-logos img {
+        width: 25px;
+    }
+
+    .serv {
+        font-size: 1.5rem;
+    }
+
+    .cotacao-btn {
+        font-size: 1.2rem;
+    }
+
+    .serv > h3 {
+        font-size: 1.9rem;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
